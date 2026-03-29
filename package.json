@@ -1,0 +1,27 @@
+{
+  "name": "systemprompt-example",
+  "version": "1.0.0",
+  "description": "Test different OpenRouter model responses using defined system and user prompts",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx --watch src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "openrouter",
+    "llm",
+    "testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0"
+  }
+}
